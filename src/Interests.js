@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
 
-export default class Hobbies extends Component {
+export default class Interests extends Component {
   /**
    * Builds and renders the card containing the party image and basic
    * information
