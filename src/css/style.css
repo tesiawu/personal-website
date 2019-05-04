@@ -14,11 +14,33 @@
 #brand {
 	color:white;
 }
+
 .baseClass {
 	color:white;
 }
 .navbar-toggler-icon {
 	color:white;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:focus,
+.navbar .nav-link:hover {
+    color: gray;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  background-color: transparent;
+}
+
+.dropdown .dropdown-menu .dropdown-item:active, 
+.dropdown .dropdown-menu .dropdown-item:hover { 
+	background-color: transparent !important;
+	color: gray !important;
 }
 
 /* Header */

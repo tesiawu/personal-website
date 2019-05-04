@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {Navbar, Nav, NavItem} from 'react-bootstrap'
+import {Navbar, Nav, NavItem, NavDropdown} from 'react-bootstrap'
 import {LinkContainer} from 'react-router-bootstrap'
 import {Link} from 'react-router-dom'
 import './css/style.css'
@@ -17,10 +17,15 @@ export default class Navigation extends React.Component {
 
   <Navbar.Brand href="home" id="brand">Tesia Wu</Navbar.Brand>
   <Navbar >
-      <Nav.Link href="home" style={{color:'white'}}>Home</Nav.Link>
-      <Nav.Link href="profile" style={{color:'white'}}>Profile</Nav.Link>
-      <Nav.Link href="interests" style={{color:'white'}}>Interests</Nav.Link>
-      <Nav.Link href="contact" style={{color:'white'}}>Contact Me</Nav.Link>
+      <Nav.Link href="home">Home</Nav.Link>
+      <Nav.Link href="profile">Profile</Nav.Link>
+
+      <NavDropdown title="Interests" className="dropdown">
+        <NavDropdown.Item href="photography" style={{color:'white'}}>Photography</NavDropdown.Item>
+        <NavDropdown.Item href="marvel" style={{color:'white'}}>Marvel</NavDropdown.Item>
+      </NavDropdown>
+
+      <Nav.Link href="contact">Contact Me</Nav.Link>
   </Navbar>
       
     
