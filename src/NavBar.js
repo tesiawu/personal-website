@@ -25,7 +25,6 @@ export default class Navigation extends React.Component {
         <NavDropdown.Item href="marvel" style={{color:'white'}}>Marvel</NavDropdown.Item>
       </NavDropdown>
 
-      <Nav.Link href="contact">Contact Me</Nav.Link>
   </Navbar>
       
     
