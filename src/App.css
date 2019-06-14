@@ -31,3 +31,23 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Home */
+
+.responsive-image {
+  background-image: url("https://st2.depositphotos.com/1741969/6988/i/950/depositphotos_69888303-stock-photo-background-of-blurred-beach-and.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 100vh;
+ width: 100%;
+
+ /* Center and scale the image nicely */
+ /*      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: hidden;
+      align-items: center;
+      justify-content: center;
+*/
+}

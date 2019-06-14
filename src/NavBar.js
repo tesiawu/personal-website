@@ -26,9 +26,6 @@ export default class Navigation extends React.Component {
       </NavDropdown>
 
   </Navbar>
-      
-    
-
 </Navbar>
       </div>
     );

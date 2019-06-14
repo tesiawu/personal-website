@@ -66,7 +66,10 @@ export default class Photography extends Component {
     }
 
     return (
+
       <div className='container'>
+      	<h1 style={{color:'white'}}>Photography</h1>
+      	<p></p>
         <Gallery photos={photos} onClick={this.openLightbox} />
         <Lightbox images={photos}
           onClose={this.closeLightbox}
