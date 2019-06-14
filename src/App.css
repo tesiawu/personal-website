@@ -51,3 +51,12 @@
       justify-content: center;
 */
 }
+
+.carousel {
+    top:0;
+}
+.carousel-inner {
+    width: 100%;
+    overflow: hidden;
+    height:100vh;
+}

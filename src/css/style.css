@@ -2,6 +2,10 @@
 
 .navbar.transparent.navbar-inverse {
     border-width: 0px;
+    position: absolute;
+    top:0;
+    z-index: 10;
+    width: 100%;
     -webkit-box-shadow: 0px 0px;
     box-shadow: 0px 0px;
     background-color: rgba(0,0,0,0.0);
@@ -38,8 +42,8 @@
   margin-top: 0;
 }
 
-.dropdown .dropdown-menu .dropdown-item:active, 
-.dropdown .dropdown-menu .dropdown-item:hover { 
+.dropdown .dropdown-menu .dropdown-item:active,
+.dropdown .dropdown-menu .dropdown-item:hover {
 	background-color: transparent !important;
 	color: gray !important;
 }
@@ -53,7 +57,3 @@
 	animation-timing-function: ease-in;
 	animation-duration: 4s;
 }
-
-
-
-
