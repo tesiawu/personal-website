@@ -11,9 +11,8 @@ class App extends Component {
 
     let heading = null
     if (window.location.pathname == "/home" || window.location.pathname == "/") {
-        heading = <div >
+        heading = <div className="responsive-image">
           <Navigation/>
-          <CarouselPic className="carousel"/>
 
 
 
