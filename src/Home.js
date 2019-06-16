@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import TypeWriter from 'react-typewriter'
 import Navigation from './NavBar';
 import Header from './Header'
+import {Container, Row, Col} from 'react-bootstrap/'
 import './css/style.css'
 
 export default class Home extends Component {
@@ -16,9 +17,13 @@ export default class Home extends Component {
 
     return (
       <div>
-        <h1>
-          <Header />
-        </h1>
+
+        <Container>
+          <Row>
+          <Col xs={{ span: 12, order: 1 }} md={{ span: 6, order: 1 }}> First col </Col>
+          <Col xs={{ span: 12, order: 2 }} md={{ span: 6, order: 2 }}> Second col </Col>
+          </Row>
+        </Container>
       </div>
     )
   }

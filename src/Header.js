@@ -25,8 +25,8 @@ export default class Header extends Component {
   	const { open } = this.state;
 
     return (
-		<div className="bg">
-	  	  <div className="title" style={{color:'white'}}>
+		<div>
+	  	  <div className="header" style={{color:'white'}}>
 	  	  {/*<Fade in={this.state.open} timeout="50000">*/}
           <div id="fade-in">
 	  	  	<h1>Hey, I&#39;m William.</h1>
@@ -34,10 +34,10 @@ export default class Header extends Component {
         {/*</Fade>*/}
 
 
-		  	  <div className="cursive">
-			  <h3><TypeWriter typing={1} onTypingEnd={()=> this.setState({typeDone: 1})}>I write code and make stuff.</TypeWriter></h3>
-			  <h4><TypeWriter typing={this.state.typeDone}>For fun.</TypeWriter></h4>
-		  	  </div>
+			  	<div className="cursive">
+				  	<h3><TypeWriter typing={1} onTypingEnd={()=> this.setState({typeDone: 1})}>I write code and make stuff.</TypeWriter></h3>
+				  	<h4><TypeWriter typing={this.state.typeDone}>For fun.</TypeWriter></h4>
+			  	</div>
 	  	  </div>
 
   	  </div>

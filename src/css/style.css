@@ -58,6 +58,11 @@
 	animation-duration: 4s;
 }
 
+.header {
+  text-align: center;
+  padding-top: 130px;
+}
+
 /*
 .carousel {
     top:0;

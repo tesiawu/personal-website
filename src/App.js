@@ -3,7 +3,7 @@ import './App.css';
 import Navigation from './NavBar';
 import DefaultRouter from './Router';
 import CarouselPic from './Carousel';
-import {withRouter} from 'react-router-dom';
+import Header from './Header';
 
 class App extends Component {
   render() {
@@ -13,9 +13,7 @@ class App extends Component {
     if (window.location.pathname == "/home" || window.location.pathname == "/") {
         heading = <div className="responsive-image">
           <Navigation/>
-
-
-
+          <Header />
         </div>
       } else {
         heading = <Navigation/>
