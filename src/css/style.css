@@ -73,3 +73,35 @@
     height:100vh;
 }
 */
+
+/* Introduction */
+
+.intro-container {
+  height: 100vh;
+  width: 100%;
+  position: center;
+  margin-top: 5%;
+}
+
+.tesia-pic {
+  position: center;
+  object-fit: contain;
+  height: auto;
+  width: 100%;
+}
+
+.col1 {
+  background-color: pink;
+}
+
+.col2 {
+  background-color: yellow;
+}
+
+
+/* Footer */
+
+.footer {
+  background-color: blue;
+  color: white;
+}
