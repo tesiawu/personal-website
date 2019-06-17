@@ -29,7 +29,7 @@ export default class Header extends Component {
 	  	  <div className="header" style={{color:'white'}}>
 	  	  {/*<Fade in={this.state.open} timeout="50000">*/}
           <div id="fade-in">
-	  	  	<h1>Hey, I&#39;m William.</h1>
+	  	  	<h1>Hey, I&#39;m Tesia.</h1>
           </div>
         {/*</Fade>*/}
 
