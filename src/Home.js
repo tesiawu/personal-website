@@ -22,13 +22,18 @@ export default class Home extends Component {
       <div>
         <Container className="intro-container">
           <Row>
-          <Col xs={{ span: 12, order: 1 }} md={{ span: 6, order: 1 }} className="col1 center">
+          <Col xs={{ span: 12, order: 1 }} md={{ span: 6, order: 1 }} className="center">
             <div>
               <Image src={TesiaPic} className="tesia-pic" responsive fluid/>
             </div>
           </Col>
-          <Col xs={{ span: 12, order: 2 }} md={{ span: 6, order: 2 }} className="col2">
-            Second Col
+          <Col xs={{ span: 12, order: 2 }} md={{ span: 6, order: 2 }} >
+
+            <div className="white-box">
+              <div>
+                alsdjfaksdjf
+              </div>
+            </div>
           </Col>
           </Row>
         </Container>

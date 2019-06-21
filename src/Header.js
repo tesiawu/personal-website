@@ -29,12 +29,12 @@ export default class Header extends Component {
 	  	  <div className="header" style={{color:'white'}}>
 	  	  {/*<Fade in={this.state.open} timeout="50000">*/}
           <div id="fade-in">
-	  	  	<h1>Hey, I&#39;m Tesia.</h1>
+	  	  		<h1 className="hey-font">Hey, I&#39;m <strong>Tesia</strong>.</h1>
           </div>
         {/*</Fade>*/}
 
 
-			  	<div className="cursive">
+			  	<div className="header-desc-font">
 				  	<h3><TypeWriter typing={1} onTypingEnd={()=> this.setState({typeDone: 1})}>I write code and make stuff.</TypeWriter></h3>
 				  	<h4><TypeWriter typing={this.state.typeDone}>For fun.</TypeWriter></h4>
 			  	</div>

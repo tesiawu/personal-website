@@ -58,6 +58,14 @@
 	animation-duration: 4s;
 }
 
+.hey-font {
+  font-family: 'Raleway', sans-serif;
+}
+
+.header-desc-font {
+  font-family: 'Nanum Gothic', serif;
+}
+
 .header {
   text-align: center;
   padding-top: 130px;
@@ -73,10 +81,14 @@
     height:100vh;
 }
 */
-
 .center {
   position: center;
   text-align: center;
+}
+
+.right {
+  position: right;
+  text-align: right;
 }
 
 /* Introduction */
@@ -89,8 +101,9 @@
 }
 
 .tesia-pic {
-  position: center;
-  text-align: center;
+  margin-top: 5%;
+  position: right;
+  text-align: right;
   object-fit: contain;
   height: auto;
   width: 75%;
@@ -100,14 +113,18 @@
   background-color: pink;
 }
 
-.col2 {
-  background-color: yellow;
+.white-box {
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 /* Footer */
 
 .footer {
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   text-align: center;
   color: white;
 }

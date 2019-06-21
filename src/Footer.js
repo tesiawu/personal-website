@@ -18,7 +18,7 @@ export default class Footer extends Component {
           </a> &nbsp;&nbsp;
           <a href='mailto: tesiawu@utexas.com' style={{color: "white"}}>
             <i class="far fa-envelope fa-2x"></i>
-          </a> &nbsp;&nbsp;
+          </a>
           </div>
 
 
