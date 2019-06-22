@@ -3,6 +3,7 @@ import {Route, Switch} from 'react-router-dom'
 
 import Home from './Home.js'
 import Profile from './Profile.js'
+import Projects from './Projects.js'
 import Marvel from './Marvel.js'
 import Photography from './Photography.js'
 
@@ -16,6 +17,7 @@ export default class DefaultRouter extends Component {
       	<Route exact path="/" component={Home}/>
       	<Route exact path="/home" component={Home}/>
         <Route exact path="/profile" component={Profile}/>
+        <Route exact path="/projects" component={Projects}/>
         <Route exact path="/marvel" component={Marvel}/>
         <Route exact path="/photography" component={Photography}/>
       </Switch>

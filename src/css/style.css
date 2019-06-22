@@ -17,6 +17,13 @@
 
 #brand {
 	color:white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+}
+
+.nav-links {
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
 }
 
 .baseClass {
@@ -60,10 +67,11 @@
 
 .hey-font {
   font-family: 'Raleway', sans-serif;
+  font-size: 60px;
 }
 
 .header-desc-font {
-  font-family: 'Nanum Gothic', serif;
+  font-family: 'Assistant', sans-serif;
 }
 
 .header {
@@ -119,6 +127,13 @@
   border-width: thin;
   margin-top: 5%;
   margin-bottom: 5%;
+  color: white;
+  font-family: 'Assistant', serif;
+}
+
+.home-intro {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* Footer */
@@ -127,8 +142,38 @@
   margin-bottom: 2%;
   text-align: center;
   color: white;
+  font-family: 'Gothic A1', serif;
 }
 
 .copyright {
   margin-top: 15px;
+}
+
+
+/* Profile page */
+
+.profile-img {
+  text-align: center;
+  object-fit: contain;
+  height: 50%;
+  width: 50%;
+}
+
+.container-profile {
+  background-color: white;
+  color: black;
+  height: 100%;
+  width: 100%;
+  position: center;
+  margin-top: 10%;
+}
+
+.col-1 {
+  height: 50%;
+  width: 100%;
+  background-color: yellow;
+}
+
+.col-2 {
+  background-color: pink;
 }

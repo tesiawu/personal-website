@@ -30,7 +30,7 @@ export default class Home extends Component {
           <Col xs={{ span: 12, order: 2 }} md={{ span: 6, order: 2 }} >
 
             <div className="white-box">
-              <div>
+              <div className="home-intro">
                 alsdjfaksdjf
               </div>
             </div>

@@ -16,10 +16,10 @@ export default class Navigation extends React.Component {
       <Navbar bg="navbar transparent navbar-inverse justify-content-between" expand="lg" sticky="top">
 
   <Navbar.Brand href="home" id="brand">Tesia Wu</Navbar.Brand>
-  <Navbar >
+  <Navbar className="nav-links">
       <Nav.Link href="home">Home</Nav.Link>
       <Nav.Link href="profile">Profile</Nav.Link>
-
+      <Nav.Link href="projects">Projects</Nav.Link>
       <NavDropdown title="Interests" className="dropdown">
         <NavDropdown.Item href="photography" style={{color:'white'}}>Photography</NavDropdown.Item>
         <NavDropdown.Item href="marvel" style={{color:'white'}}>Marvel</NavDropdown.Item>
