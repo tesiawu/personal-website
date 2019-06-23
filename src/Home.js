@@ -30,17 +30,27 @@ export default class Home extends Component {
 
             <div className="white-box">
               <div className="home-intro">
-                <h2 className="home-intro-hey">Hey</h2>
-                <br></br>
+                <h1 className="home-intro-hey">Hey there!</h1>
+                <p></p>
                 <p>
-                  Welcome to my
+                  Welcome to my section of the Internet where you'll get to see
+                  a glimpse of who I am, professionally as well as personally.
                 </p>
                 <p>
-                  adfsasdfadfasfadsfasdfsdf
-                  adfsasdfadfasfadsfasdff
+                  I'm a proud <a href="https://www.texasexes.org/" className="texas-ex-link">Texas Ex</a>
+                  &nbsp;(Hook 'em Horns!) and a software engineer loves to code.
+                  I also love watching movies (especially those of the &nbsp;
+                  <a href="https://www.marvel.com/movies" className="marvel-link">Marvel Cinematic Universe</a>), dabbling in photography,
+                  playing the <a href="https://www.tmea.org/programs/all-state/history?skip=0&organization=*&instrument=*&school_op=eq&school=Martin%20HS&city_op=eq&city=&submit=Search" className="violin-link">violin</a>,
+                  and just having fun.
+                </p>
+                <p>
+                So whoever you are, whether you're someone who happened upon my
+                website, a stranger I have yet to meet, or a friend who's
+                checking up on me, I hope you learn a little more about me. Enjoy your stay!
                 </p>
                 <br></br>
-                <a href="/profile" className="read-more-link">Get to know me -</a>
+                <a href="/profile" className="read-more-link">Get to know me —</a>
               </div>
             </div>
           </Col>

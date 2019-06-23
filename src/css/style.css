@@ -116,7 +116,7 @@
   text-align: right;
   object-fit: contain;
   height: auto;
-  width: 75%;
+  width: 80%;
 }
 
 .col1 {
@@ -131,6 +131,7 @@
   margin-bottom: 5%;
   color: white;
   font-family: 'Assistant', serif;
+  font-size: 20px;
 }
 
 .home-intro-hey {
@@ -144,6 +145,41 @@
   padding-right: 10px;
 }
 
+.texas-ex-link {
+  text-decoration: none;
+  color: rgb(206, 95, 16);
+}
+
+.texas-ex-link a, .texas-ex-link:hover {
+  text-decoration: none;
+  color: rgb(206, 95, 16);
+  border-bottom: 1px solid Gainsboro;
+  border-color: rgb(206, 95, 16);
+}
+
+.marvel-link {
+  text-decoration: none;
+  color: rgb(234, 32, 37);
+}
+
+.marvel-link a, .marvel-link:hover {
+  text-decoration: none;
+  color: rgb(234, 32, 37);
+  border-bottom: 1px solid Gainsboro;
+  border-color: rgb(234, 32, 37);
+}
+
+.violin-link {
+  text-decoration: none;
+  color: lightPink;
+}
+
+.violin-link a, .violin-link:hover {
+  text-decoration: none;
+  color: lightPink;
+  border-bottom: 1px solid Gainsboro;
+  border-color: lightPink;
+}
 
 .read-more-link {
   text-decoration: none;
