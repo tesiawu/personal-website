@@ -58,12 +58,13 @@ export default class Home extends Component {
             </div>
           </Col>
           </Row>
+          <footer>
+          <Footer className="footer"/>
+          </footer>
         </Container>
 
 
-        <footer>
-        <Footer className="footer"/>
-        </footer>
+
       </div>
 
     )

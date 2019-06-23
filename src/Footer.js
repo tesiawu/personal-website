@@ -6,8 +6,7 @@ export default class Footer extends Component {
   render() {
     return (
         <div className="footer">
-
-          Contact Me!
+          <h4>Contact Me!</h4>
           <p></p>
           <div>
           <a href='https://www.linkedin.com/in/tesiawu/' style={{color: "white"}}>
@@ -23,7 +22,7 @@ export default class Footer extends Component {
 
 
 
-          <p style={{fontSize:"12px"}} className="copyright">
+          <p style={{fontSize:"13px"}} className="copyright">
             &copy; Tesia Wu {new Date().getFullYear()}
             <br />
             All Rights Reserved. <br />
