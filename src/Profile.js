@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
+import Footer from './Footer';
 
 export default class Profile extends Component {
   /**
@@ -17,7 +18,21 @@ export default class Profile extends Component {
     }
 
     return (
-      <div className='container'>
+      <div>
+        <div className='container-profile'>
+
+        </div>
+        <div class="col-1">
+        1
+        </div>
+        <div class="col-2">
+        2
+        </div>
+
+        <footer>
+        <Footer className="footer"/>
+        </footer>
+
       </div>
     )
   }

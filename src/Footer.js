@@ -6,7 +6,9 @@ export default class Footer extends Component {
   render() {
     return (
         <div className="footer">
-          <h4>Contact Me!</h4>
+
+          <h2>Contact Me</h2>
+          <h5>I'd love to hear from you!</h5>
           <p></p>
           <div>
           <a href='https://www.linkedin.com/in/tesiawu/' style={{color: "white"}}>
