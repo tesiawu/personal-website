@@ -30,6 +30,7 @@ export default class Home extends Component {
 
             <div className="white-box">
               <div className="home-intro">
+                <p></p>
                 <h1 className="home-intro-hey">Hey there!</h1>
                 <p></p>
                 <p>
@@ -51,6 +52,8 @@ export default class Home extends Component {
                 </p>
                 <br></br>
                 <a href="/profile" className="read-more-link">Get to know me —</a>
+                <br></br>
+                <br></br>
               </div>
             </div>
           </Col>
@@ -58,8 +61,9 @@ export default class Home extends Component {
         </Container>
 
 
-
+        <footer>
         <Footer className="footer"/>
+        </footer>
       </div>
 
     )
