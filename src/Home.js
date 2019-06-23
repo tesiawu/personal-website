@@ -15,7 +15,6 @@ export default class Home extends Component {
    * information
    */
 
-
   render () {
 
     return (
@@ -31,7 +30,17 @@ export default class Home extends Component {
 
             <div className="white-box">
               <div className="home-intro">
-                alsdjfaksdjf
+                <h2 className="home-intro-hey">Hey</h2>
+                <br></br>
+                <p>
+                  Welcome to my
+                </p>
+                <p>
+                  adfsasdfadfasfadsfasdfsdf
+                  adfsasdfadfasfadsfasdff
+                </p>
+                <br></br>
+                <a href="/profile" className="read-more-link">Get to know me -</a>
               </div>
             </div>
           </Col>

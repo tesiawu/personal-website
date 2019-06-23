@@ -13,7 +13,7 @@ class App extends Component {
     if (window.location.pathname == "/home" || window.location.pathname == "/") {
         heading = <div className="responsive-image">
           <Navigation/>
-          <Header />
+          <Header/>
         </div>
       } else {
         heading = <Navigation/>

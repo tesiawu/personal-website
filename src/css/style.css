@@ -40,7 +40,8 @@
 .navbar .nav-link.active,
 .navbar .nav-link:focus,
 .navbar .nav-link:hover {
-    color: gray;
+    color: white;
+    border-bottom: 1px solid Gainsboro;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -106,6 +107,7 @@
   width: 100%;
   position: center;
   margin-top: 10%;
+
 }
 
 .tesia-pic {
@@ -131,15 +133,52 @@
   font-family: 'Assistant', serif;
 }
 
+.home-intro-hey {
+  font-family: 'Raleway', sans-serif;
+}
+
 .home-intro {
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
+
+.read-more-link {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid Gainsboro;
+}
+
+.read-more-link a, .read-more-link:hover
+{
+    text-decoration: none;
+    color: gray;
+    border-bottom: 1px solid Gainsboro;
+    border-color: gray;
+}
+
+/*
+.read-more-link:hover {
+  border-bottom: 1px solid Gainsboro;
+}
+*/
+/*
+
+.read-more-link a:visited
+a:hover { color: SeaGreen; border-bottom: 1px solid Black;}
+}}
+*/
 /* Footer */
 
 .footer {
+  padding-top: 80px;
   margin-bottom: 2%;
+  position: relative;
+  left:0;
+  bottom:0;
+  right:0;
   text-align: center;
   color: white;
   font-family: 'Gothic A1', serif;
