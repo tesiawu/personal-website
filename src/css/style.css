@@ -243,3 +243,7 @@
   height: 70vh;
   min-width: 100%;
 }
+
+.progress-bar {
+  background-color: black! important
+}
