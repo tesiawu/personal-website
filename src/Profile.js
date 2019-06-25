@@ -69,7 +69,7 @@ export default class Profile extends Component {
         </div>
 
         <div className="experience-container" responsive fluid>
-          <div className="experience-header" style={{paddingBottom: 6}}>
+          <div className="title-header" style={{paddingBottom: 6}}>
             <h1>Education</h1>
           </div>
           <Container className="experience-row">
@@ -89,7 +89,7 @@ export default class Profile extends Component {
             </Row>
           </Container>
           <br /><br />
-          <div className="experience-header" style={{paddingBottom: 6}}>
+          <div className="title-header" style={{paddingBottom: 6}}>
             <h1>Experience</h1>
           </div>
           <Container className="experience-row">
@@ -138,12 +138,11 @@ export default class Profile extends Component {
               </Col>
             </Row>
             <br />
-
           </Container>
         </div>
 
         <div class="skills-row">
-          <div>
+          <div className="title-header">
             <h1>Skills</h1>
           </div>
           <Container>
