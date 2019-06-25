@@ -232,7 +232,9 @@
   position: center;
 }
 
-.experience-container {
+.experience-container {  
+  color: white;
+  background-color: #0c0c0c;
   border-style: solid;
   border-width: thin;
   border-color: white;
@@ -240,8 +242,6 @@
 }
 
 .experience-row {
-  color: white;
-  background-color: #0c0c0c;
   height: auto;
   min-width: 100%;
 }

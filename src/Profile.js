@@ -132,6 +132,7 @@ export default class Profile extends Component {
                 </div>
               </Col>
             </Row>
+            <br />
 
           </Container>
         </div>
