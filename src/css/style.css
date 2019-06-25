@@ -232,18 +232,46 @@
   position: center;
 }
 
-.col-1 {
-  background-color: yellow;
-  height: 70vh;
+.experience-container {
+  border-style: solid;
+  border-width: thin;
+  border-color: white;
+  width: 100%;
+}
+
+.experience-row {
+  color: white;
+  background-color: #0c0c0c;
+  height: auto;
   min-width: 100%;
 }
 
-.col-2 {
-  background-color: pink;
-  height: 70vh;
+.skills-row {
+  background-color: white;
+  color: #202020;
+  height: auto;
   min-width: 100%;
+}
+
+.date-headings {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.position-font {
+  font-family: 'Gothic A1', serif;
+  font-size: 17px;
+  margin-bottom: 0;
+}
+
+.profile-headings {
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 0;
 }
 
 .progress-bar {
-  background-color: black! important
+  background-color: #202020! important
 }
