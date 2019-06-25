@@ -232,7 +232,7 @@
   position: center;
 }
 
-.experience-container {  
+.experience-container {
   color: white;
   background-color: #0c0c0c;
   border-style: solid;
@@ -241,9 +241,13 @@
   width: 100%;
 }
 
+.experience-header {
+  margin-left: 3%;
+}
+
 .experience-row {
   height: auto;
-  min-width: 100%;
+  width: 100%;
 }
 
 .skills-row {

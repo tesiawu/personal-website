@@ -69,66 +69,71 @@ export default class Profile extends Component {
         </div>
 
         <div className="experience-container" responsive fluid>
-          <div>
-            <h1>Experience</h1>
+          <div className="experience-header" style={{paddingBottom: 6}}>
+            <h1>Education</h1>
           </div>
           <Container className="experience-row">
             <Row>
-              <Col xs={{ span: 12, order: 1 }} md={{ span: 5, order: 1 }}>
-                <div>
-                  <h5 className="date-headings">Aug 2019 - Present</h5>
-                  Sunnyvale, California
-                </div>
-              </Col>
-              <Col xs={{ span: 12, order: 2 }} md={{ span: 7, order: 2 }}>
-                <div>
-                  <h3 className="profile-headings">LinkedIn</h3>
-                  <p className="position-font">Software Engineer</p>
-                </div>
-              </Col>
-            </Row>
-            <br />
-            <Row>
-              <Col xs={{ span: 12, order: 1 }} md={{ span: 5, order: 1 }}>
-                <div>
-                  <h5 className="date-headings">Aug 2015 - May 2019</h5>
-                  Austin, Texas
-                </div>
-              </Col>
-              <Col xs={{ span: 12, order: 2 }} md={{ span: 7, order: 2 }}>
+              <Col xs={{ span: 12, order: 1 }} md={{ span: 8, order: 1 }}>
                 <div>
                   <h3 className="profile-headings">The University of Texas at Austin</h3>
                   <p className="position-font">Bachelor of Science in Computer Science</p>
                 </div>
               </Col>
-            </Row>
-            <br />
-            <Row>
-              <Col xs={{ span: 12, order: 1 }} md={{ span: 5, order: 1 }}>
+              <Col xs={{ span: 12, order: 2 }} md={{ span: 4, order: 2 }}>
                 <div>
-                  <h5 className="date-headings">May 2018 - Aug 2018</h5>
+                  <h5 className="date-headings">Aug 2015 - May 2019</h5>
+                  Austin, Texas
+                </div>
+              </Col>
+            </Row>
+          </Container>
+          <br /><br />
+          <div className="experience-header" style={{paddingBottom: 6}}>
+            <h1>Experience</h1>
+          </div>
+          <Container className="experience-row">
+            <Row>
+              <Col xs={{ span: 12, order: 1 }} md={{ span: 8, order: 1 }}>
+                <div>
+                  <h3 className="profile-headings">LinkedIn</h3>
+                  <p className="position-font">Software Engineer</p>
+                </div>
+              </Col>
+              <Col xs={{ span: 12, order: 2 }} md={{ span: 4, order: 2 }}>
+                <div>
+                  <h5 className="date-headings">Aug 2019 - Present</h5>
                   Sunnyvale, California
                 </div>
               </Col>
-              <Col xs={{ span: 12, order: 2 }} md={{ span: 7, order: 2 }}>
+            </Row>
+            <br />
+            <Row>
+              <Col xs={{ span: 12, order: 1 }} md={{ span: 8, order: 1 }}>
                 <div>
                   <h3 className="profile-headings">LinkedIn</h3>
                   <p className="position-font">Software Engineering Intern</p>
                 </div>
               </Col>
+              <Col xs={{ span: 12, order: 2 }} md={{ span: 4, order: 2 }}>
+                <div>
+                  <h5 className="date-headings">May 2018 - Aug 2018</h5>
+                  Sunnyvale, California
+                </div>
+              </Col>
             </Row>
             <br />
             <Row>
-              <Col xs={{ span: 12, order: 1 }} md={{ span: 5, order: 1 }}>
-                <div>
-                  <h5 className="date-headings">June 2017 - Aug 2017</h5>
-                  Fort Worth, Texas
-                </div>
-              </Col>
-              <Col xs={{ span: 12, order: 2 }} md={{ span: 7, order: 2 }}>
+              <Col xs={{ span: 12, order: 1 }} md={{ span: 8, order: 1 }}>
                 <div>
                   <h3 className="profile-headings">Lockheed Martin </h3>
                   <p className="position-font">Software Engineering Intern</p>
+                </div>
+              </Col>
+              <Col xs={{ span: 12, order: 2 }} md={{ span: 4, order: 2 }}>
+                <div>
+                  <h5 className="date-headings">June 2017 - Aug 2017</h5>
+                  Fort Worth, Texas
                 </div>
               </Col>
             </Row>
