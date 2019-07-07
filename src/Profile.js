@@ -13,28 +13,68 @@ export default class Profile extends Component {
     super(props);
     this.state = {
       JavaProgress: 0,
-      PythonProgress: 0
+      PythonProgress: 0,
+      CProgress: 0,
+      ObjCProgress: 0,
+      SwiftProgress: 0,
+      GitProgress: 0
     };
   }
 
   componentDidMount() {
     let JavaRetVal = setInterval(function() {
-      if ( this.state.JavaProgress >= 80){
+      if ( this.state.JavaProgress >= 95){
         clearInterval(JavaRetVal)
         return;
       }
       this.setState({
-        JavaProgress: this.state.JavaProgress + 10});
-      }.bind(this), 100);
+        JavaProgress: this.state.JavaProgress + 5});
+      }.bind(this), 60);
 
     let PythonRetVal = setInterval(function() {
-      if ( this.state.PythonProgress >= 60){
+      if ( this.state.PythonProgress >= 80){
         clearInterval(PythonRetVal)
         return;
       }
       this.setState({
-        PythonProgress: this.state.PythonProgress + 10});
-      }.bind(this), 100);
+        PythonProgress: this.state.PythonProgress + 5});
+      }.bind(this), 60);
+
+      let CRetVal = setInterval(function() {
+        if ( this.state.CProgress >= 80){
+          clearInterval(CRetVal)
+          return;
+        }
+        this.setState({
+          CProgress: this.state.CProgress + 5});
+        }.bind(this), 60);
+
+      let ObjCRetVal = setInterval(function() {
+        if ( this.state.ObjCProgress >= 70){
+          clearInterval(ObjCRetVal)
+          return;
+        }
+        this.setState({
+          ObjCProgress: this.state.ObjCProgress + 5});
+        }.bind(this), 60);
+
+      let SwiftRetVal = setInterval(function() {
+        if ( this.state.SwiftProgress >= 70){
+          clearInterval(SwiftRetVal)
+          return;
+        }
+        this.setState({
+          SwiftProgress: this.state.SwiftProgress + 5});
+        }.bind(this), 60);
+
+      let GitRetVal = setInterval(function() {
+        if ( this.state.GitProgress >= 60){
+          clearInterval(GitRetVal)
+          return;
+        }
+        this.setState({
+          GitProgress: this.state.GitProgress + 5});
+        }.bind(this), 60);
 
   }
 
@@ -77,7 +117,7 @@ export default class Profile extends Component {
               <Col xs={{ span: 12, order: 1 }} md={{ span: 8, order: 1 }}>
                 <div>
                   <h3 className="profile-headings">The University of Texas at Austin</h3>
-                  <p className="position-font">Bachelor of Science in Computer Science</p>
+                  <p className="position-font">Bachelor of Science in Computer Science with Honors</p>
                 </div>
               </Col>
               <Col xs={{ span: 12, order: 2 }} md={{ span: 4, order: 2 }}>
@@ -154,7 +194,14 @@ export default class Profile extends Component {
                 <ProgressBar now={this.state.JavaProgress} class="progress-bar" label={`${this.state.JavaProgress}%`} style={{height: 15}} />
               </Col>
             </Row>
-
+            <Row>
+              <Col xs={3}>
+                C
+              </Col>
+              <Col xs={9}>
+                <ProgressBar now={this.state.CProgress} class="progress-bar" label={`${this.state.CProgress}%`} style={{height: 15}} />
+              </Col>
+            </Row>
             <Row>
               <Col xs={3}>
                 Python
@@ -166,13 +213,32 @@ export default class Profile extends Component {
 
             <Row>
               <Col xs={3}>
-                C
+                Objective C
               </Col>
               <Col xs={9}>
-                <ProgressBar now={this.state.JavaProgress} class="progress-bar" label={`${this.state.JavaProgress}%`} style={{height: 15}} />
+                <ProgressBar now={this.state.ObjCProgress} class="progress-bar" label={`${this.state.ObjCProgress}%`} style={{height: 15}} />
+              </Col>
+            </Row>
+
+            <Row>
+              <Col xs={3}>
+                Swift
+              </Col>
+              <Col xs={9}>
+                <ProgressBar now={this.state.SwiftProgress} class="progress-bar" label={`${this.state.SwiftProgress}%`} style={{height: 15}} />
+              </Col>
+            </Row>
+
+            <Row>
+              <Col xs={3}>
+                Git
+              </Col>
+              <Col xs={9}>
+                <ProgressBar now={this.state.GitProgress} class="progress-bar" label={`${this.state.GitProgress}%`} style={{height: 15}} />
               </Col>
             </Row>
           </Container>
+          <br/>
         </div>
 
         <footer>
