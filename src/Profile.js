@@ -3,6 +3,9 @@ import {Link} from 'react-router-dom'
 import Footer from './Footer';
 import {Container, Row, Col} from 'react-bootstrap'
 import ProgressBar from 'react-bootstrap/ProgressBar'
+import Image from 'react-bootstrap/Image'
+import './css/style.css'
+import TesiaProfilePic from './photos/tesiaProfile.jpg'
 
 export default class Profile extends Component {
   /**
@@ -50,7 +53,7 @@ export default class Profile extends Component {
         }.bind(this), 60);
 
       let ObjCRetVal = setInterval(function() {
-        if ( this.state.ObjCProgress >= 70){
+        if ( this.state.ObjCProgress >= 65){
           clearInterval(ObjCRetVal)
           return;
         }
@@ -59,7 +62,7 @@ export default class Profile extends Component {
         }.bind(this), 60);
 
       let SwiftRetVal = setInterval(function() {
-        if ( this.state.SwiftProgress >= 70){
+        if ( this.state.SwiftProgress >= 65){
           clearInterval(SwiftRetVal)
           return;
         }
@@ -68,7 +71,7 @@ export default class Profile extends Component {
         }.bind(this), 60);
 
       let GitRetVal = setInterval(function() {
-        if ( this.state.GitProgress >= 60){
+        if ( this.state.GitProgress >= 75){
           clearInterval(GitRetVal)
           return;
         }
@@ -91,25 +94,36 @@ export default class Profile extends Component {
 
     return (
       <div>
-        <div className='container-profile'>
-
+        <div className="container-profile">
+        <Image src={TesiaProfilePic} className="tesia-profile-pic" responsive fluid/>
         </div>
-        <div class="col-1">
+        <div className="pro-intro-container" responsive fluid>
 
-          <Container>
+          <Container className="rows">
             <Row>
-              <Col xs={4}>
+              <Col xs={7}>
                 Teehee
               </Col>
-              <Col xs={8}>
-                ajlskdfadf;j
+              <Col xs={5}>
+                Name: Tesia Wu <br/>
+                Profession: Software Engineer <br/>
+                Points of Interests: Security, Infrastructure, Cloud Computing
               </Col>
             </Row>
           </Container>
         </div>
-
+        <div className="personal-intro-container" responsive fluid>
+          <Container className="rows">
+            <Row>
+              <Col xs={12}>
+                Teehee
+              </Col>
+            </Row>
+          </Container>
+        </div>
         <div className="experience-container" responsive fluid>
           <div className="title-header" style={{paddingBottom: 6}}>
+            <br />
             <h1>Education</h1>
           </div>
           <Container className="experience-row">
@@ -177,64 +191,62 @@ export default class Profile extends Component {
                 </div>
               </Col>
             </Row>
-            <br />
+            <br /><br/>
           </Container>
         </div>
 
         <div class="skills-row">
           <div className="title-header">
+            <br />
             <h1>Skills</h1>
           </div>
           <Container>
             <Row>
-              <Col xs={3}>
-                Java
+              <Col xs={4}>
+                <h4 className="skills">Java</h4>
               </Col>
-              <Col xs={9}>
-                <ProgressBar now={this.state.JavaProgress} class="progress-bar" label={`${this.state.JavaProgress}%`} style={{height: 15}} />
-              </Col>
-            </Row>
-            <Row>
-              <Col xs={3}>
-                C
-              </Col>
-              <Col xs={9}>
-                <ProgressBar now={this.state.CProgress} class="progress-bar" label={`${this.state.CProgress}%`} style={{height: 15}} />
+              <Col style={{paddingTop:4}} xs={8}>
+                <ProgressBar now={this.state.JavaProgress} class="progress-bar" label={`${this.state.JavaProgress}%`} style={{height: 20}} />
               </Col>
             </Row>
             <Row>
-              <Col xs={3}>
-                Python
+              <Col xs={4}>
+                <h4 className="skills">C</h4>
               </Col>
-              <Col xs={9}>
-                <ProgressBar now={this.state.PythonProgress} class="progress-bar" label={`${this.state.PythonProgress}%`} style={{height: 15}} />
-              </Col>
-            </Row>
-
-            <Row>
-              <Col xs={3}>
-                Objective C
-              </Col>
-              <Col xs={9}>
-                <ProgressBar now={this.state.ObjCProgress} class="progress-bar" label={`${this.state.ObjCProgress}%`} style={{height: 15}} />
+              <Col style={{paddingTop:4}} xs={8}>
+                <ProgressBar now={this.state.CProgress} class="progress-bar" label={`${this.state.CProgress}%`} style={{height: 20}} />
               </Col>
             </Row>
-
             <Row>
-              <Col xs={3}>
-                Swift
+              <Col xs={4}>
+                <h4 className="skills">Python</h4>
               </Col>
-              <Col xs={9}>
-                <ProgressBar now={this.state.SwiftProgress} class="progress-bar" label={`${this.state.SwiftProgress}%`} style={{height: 15}} />
+              <Col style={{paddingTop:4}} xs={8}>
+                <ProgressBar now={this.state.PythonProgress} class="progress-bar" label={`${this.state.PythonProgress}%`} style={{height: 20}} />
               </Col>
             </Row>
-
             <Row>
-              <Col xs={3}>
-                Git
+              <Col xs={4}>
+                <h4 className="skills">Git</h4>
               </Col>
-              <Col xs={9}>
-                <ProgressBar now={this.state.GitProgress} class="progress-bar" label={`${this.state.GitProgress}%`} style={{height: 15}} />
+              <Col style={{paddingTop:4}} xs={8}>
+                <ProgressBar now={this.state.GitProgress} class="progress-bar" label={`${this.state.GitProgress}%`} style={{height: 20}} />
+              </Col>
+            </Row>
+            <Row>
+              <Col xs={4}>
+                <h4 className="skills">Objective C</h4>
+              </Col>
+              <Col style={{paddingTop:4}} xs={8}>
+                <ProgressBar now={this.state.ObjCProgress} class="progress-bar" label={`${this.state.ObjCProgress}%`} style={{height: 20}} />
+              </Col>
+            </Row>
+            <Row>
+              <Col xs={4}>
+                <h4 className="skills">Swift</h4>
+              </Col>
+              <Col style={{paddingTop:4}} xs={8}>
+                <ProgressBar now={this.state.SwiftProgress} class="progress-bar" label={`${this.state.SwiftProgress}%`} style={{height: 20}} />
               </Col>
             </Row>
           </Container>

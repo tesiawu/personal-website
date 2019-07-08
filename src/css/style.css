@@ -225,9 +225,9 @@
 }
 
 .container-profile {
-  background-color: transparent;
-  color: black;
-  height: 500px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  height: 550px;
   width: 100%;
   position: center;
 }
@@ -245,7 +245,20 @@
   margin-left: 3%;
 }
 
-.experience-row {
+.pro-intro-container {
+  height: auto;
+  width: 100%;
+  color: white;
+}
+
+.personal-intro-container {
+  height: auto;
+  width: 100%;
+  background-color: white;
+  color: #202020;
+}
+
+.rows {
   height: auto;
   width: 100%;
 }
@@ -277,5 +290,15 @@
 }
 
 .progress-bar {
-  background-color: #202020! important
+  background-color: #202020! important;
+}
+
+.skills {
+  font-size: 22px;
+}
+
+.tesia-profile-pic {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
 }
