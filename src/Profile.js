@@ -101,13 +101,29 @@ export default class Profile extends Component {
 
           <Container className="rows">
             <Row>
-              <Col xs={7}>
-                Teehee
+              <Col xs={9}>
+                <div>
+                  <h2 className="pro-intro-heading">Hey y'all, I'm Tesia!</h2>&nbsp;&nbsp;
+                  <p className="pro-intro-p">
+
+
+                    Just as my home page says, I like to code. I received my Bachelor
+                    of Computer Science at the University of Texas at Austin in 2019 and
+                    have loved coding ever since.
+                    I sparingly code in my freetime and am a software engineer fulltime.
+                    For 40 hours a week (maybe even more), I code in the office, go to meetings (ugh),
+                    and munch on snacks.
+                    <br/><br/>
+                    I also think it's important to explore and try new things.
+                    After taking a risk at an internship (ask me about it sometime) and
+                    diving headfirst into mobile development, I've decided to start my career
+                    as a mobile developer at LinkedIn. I've also found I have several other fields that
+                    I'm interested and passionate about such as backend development,
+                    general infrastructure, cloud computing, and security.
+                  </p>
+                </div>
               </Col>
-              <Col xs={5}>
-                Name: Tesia Wu <br/>
-                Profession: Software Engineer <br/>
-                Points of Interests: Security, Infrastructure, Cloud Computing
+              <Col xs={3}>
               </Col>
             </Row>
           </Container>
@@ -115,8 +131,16 @@ export default class Profile extends Component {
         <div className="personal-intro-container" responsive fluid>
           <Container className="rows">
             <Row>
-              <Col xs={12}>
-                Teehee
+              <Col xs={3}>
+              </Col>
+              <Col xs={9}>
+                <div>
+                  <p>
+                    JDK:FSLJFLKSDJF:SKLDJFLSDJFSK:LDFJLSKdjf;alkjsdfaklsdjfa;sdkjf
+                    aksdjfklajsdklfajd;kflja;ldfjasdjfalskdjfalksdjfalksdjfa;sd
+                    asdkjf;ajdfkajdsl;fjsdkfjasdfjalksdfjaskdj
+                  </p>
+                </div>
               </Col>
             </Row>
           </Container>
