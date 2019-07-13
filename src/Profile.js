@@ -6,6 +6,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar'
 import Image from 'react-bootstrap/Image'
 import './css/style.css'
 import TesiaProfilePic from './photos/tesiaProfile.jpg'
+import TesiaResume from './photos/Tesia_s_Resume.pdf'
 
 export default class Profile extends Component {
   /**
@@ -105,21 +106,21 @@ export default class Profile extends Component {
                 <div>
                   <h2 className="pro-intro-heading">Hey y'all, I'm Tesia!</h2>&nbsp;&nbsp;
                   <p className="pro-intro-p">
-
-
-                    Just as my home page says, I like to code. I received my Bachelor
-                    of Computer Science at the University of Texas at Austin in 2019 and
-                    have loved coding ever since.
-                    I sparingly code in my freetime and am a software engineer fulltime.
-                    For 40 hours a week (maybe even more), I code in the office, go to meetings (ugh),
-                    and munch on snacks.
+                    I'm a fresh college graduate based from Texas and just as my
+                    home page says, I like to code. But, there's a lot of other things I like to do.
                     <br/><br/>
-                    I also think it's important to explore and try new things.
-                    After taking a risk at an internship (ask me about it sometime) and
-                    diving headfirst into mobile development, I've decided to start my career
-                    as a mobile developer at LinkedIn. I've also found I have several other fields that
-                    I'm interested and passionate about such as backend development,
-                    general infrastructure, cloud computing, and security.
+                    I'm a huge fan of the Marvel Cinematic Universe and BTS.
+                    I'll always be at every Marvel movie premiere and constantly updated on everything BTS related.
+                    I've been playing violin since I was six years old and I'd say I'm pretty good at it - I played in the&nbsp;
+                    <a href="https://www.tmea.org/programs/all-state/history?skip=0&organization=*&instrument=*&school_op=eq&school=Martin%20HS&city_op=eq&city=&submit=Search" className="violin-link">TMEA All-State Organization</a>
+                    &nbsp;for all four years.
+                    <br/><br/>
+                    I'm also a budding photographer (like every other person my age).
+                    Most of my photographs lean toward the landscape/nature category,
+                    but I do some portrait shots (rarely).
+                    It's nothing too serious but you can check out some of &nbsp;
+                    <a href="/photography" className="read-more-link">my work</a> on my site.
+
                   </p>
                 </div>
               </Col>
@@ -134,11 +135,24 @@ export default class Profile extends Component {
               <Col xs={3}>
               </Col>
               <Col xs={9}>
-                <div>
-                  <p>
-                    JDK:FSLJFLKSDJF:SKLDJFLSDJFSK:LDFJLSKdjf;alkjsdfaklsdjfa;sdkjf
-                    aksdjfklajsdklfajd;kflja;ldfjasdjfalskdjfalksdjfalksdjfa;sd
-                    asdkjf;ajdfkajdsl;fjsdkfjasdfjalksdfjaskdj
+                <div className="pro-intro-con">
+                  <h2 className="pro-intro-heading">Coding is my passion —</h2>&nbsp;&nbsp;
+                  <p className="pro-intro-p">
+                    I received my Bachelor
+                    of Computer Science at the University of Texas at Austin in 2019 and
+                    have loved coding ever since.
+                    I sparingly code in my freetime and am a software engineer fulltime.
+                    For 40 hours a week (maybe even more), I code in the office, go to meetings (ugh),
+                    and munch on snacks.
+                    <br/><br/>
+                    I also think it's important to explore and try new things.
+                    After taking a risk at an internship (ask me about it sometime) and
+                    diving headfirst into mobile development, I've decided to start my career
+                    as a mobile developer at LinkedIn. I've also found I have several other fields that
+                    I'm interested and passionate about such as backend development,
+                    general infrastructure, cloud computing, and security.
+                    <br/><br/>
+                    <a href={TesiaResume} target="_blank" className="resume-link">Take a look at my resume —</a>
                   </p>
                 </div>
               </Col>
