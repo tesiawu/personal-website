@@ -342,3 +342,25 @@
     border-bottom: 1px solid Gainsboro;
     border-color: gray;
 }
+
+/*
+  Project page
+*/
+
+.card {
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  border-color: black;
+  background-color: black;
+}
+
+.card-title {
+  background-color: black;
+  text-align: center;
+  color: #fdfdfd;
+}
+
+.project-container {
+  margin-top: 80px;
+}

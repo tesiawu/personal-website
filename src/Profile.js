@@ -106,11 +106,12 @@ export default class Profile extends Component {
                 <div>
                   <h2 className="pro-intro-heading">Hey y'all, I'm Tesia!</h2>&nbsp;&nbsp;
                   <p className="pro-intro-p">
-                    I'm a fresh college graduate based from Texas and just as my
+                    I'm a fresh college graduate from Texas and just as my
                     home page says, I like to code. But, there's a lot of other things I like to do.
                     <br/><br/>
                     I'm a huge fan of the Marvel Cinematic Universe and BTS.
-                    I'll always be at every Marvel movie premiere and constantly updated on everything BTS related.
+                    I'll always be at every Marvel movie premiere and constantly updated on everything BTS related. You can
+                    check out my Marvel related things on my site!
                     I've been playing violin since I was six years old and I'd say I'm pretty good at it - I played in the&nbsp;
                     <a href="https://www.tmea.org/programs/all-state/history?skip=0&organization=*&instrument=*&school_op=eq&school=Martin%20HS&city_op=eq&city=&submit=Search" className="violin-link">TMEA All-State Organization</a>
                     &nbsp;for all four years.
@@ -151,7 +152,7 @@ export default class Profile extends Component {
                     as a mobile developer at LinkedIn. I've also found I have several other fields that
                     I'm interested and passionate about such as backend development,
                     general infrastructure, cloud computing, and security.
-                    <br/><br/>
+                    <br/><br/><br/>
                     <a href={TesiaResume} target="_blank" className="resume-link">Take a look at my resume —</a>
                   </p>
                 </div>
@@ -165,6 +166,7 @@ export default class Profile extends Component {
             <h1>Education</h1>
           </div>
           <Container className="experience-row">
+            <div>
             <Row>
               <Col xs={{ span: 12, order: 1 }} md={{ span: 8, order: 1 }}>
                 <div>
@@ -179,6 +181,7 @@ export default class Profile extends Component {
                 </div>
               </Col>
             </Row>
+            </div>
           </Container>
           <br /><br />
           <div className="title-header" style={{paddingBottom: 6}}>

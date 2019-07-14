@@ -53,7 +53,7 @@ export default class Photography extends Component {
       currentImage: this.state.currentImage + 1,
     });
   }
-    
+
 
   render () {
     const styles = {
@@ -78,9 +78,8 @@ export default class Photography extends Component {
           currentImage={this.state.currentImage}
           isOpen={this.state.lightboxIsOpen}
         />
-        
+
       </div>
     )
   }
 }
-
