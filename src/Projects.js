@@ -26,35 +26,28 @@ export default class Projects extends Component {
         <div className="project-container">
           <h1 style={{color:'white', textAlign:'center'}}>Projects</h1>
           <br/>
-          <CardDeck>
-            <Card className="card" fluid>
-              <Card.Img style={{borderRadius: 0}} src={Test} />
-              <Card.Footer className="card-title">Project #1</Card.Footer>
-            </Card>
-            <Card className="card" fluid>
-              <Card.Img style={{borderRadius: 0}} src={Test} />
-              <Card.Footer className="card-title">Project #2</Card.Footer>
-            </Card>
-            <Card className="card" fluid>
-              <Card.Img style={{borderRadius: 0}} src={Test} />
-              <Card.Footer className="card-title">Project #3</Card.Footer>
-            </Card>
-          </CardDeck>
-          <br/>
-          <CardDeck>
-            <Card className="card" fluid>
-              <Card.Img style={{borderRadius: 0}} src={Test} />
-              <Card.Footer className="card-title">Project #1</Card.Footer>
-            </Card>
-            <Card className="card" fluid>
-              <Card.Img style={{borderRadius: 0}} src={Test} />
-              <Card.Footer className="card-title">Project #2</Card.Footer>
-            </Card>
-            <Card className="card" fluid>
-              <Card.Img style={{borderRadius: 0}} src={Test} />
-              <Card.Footer className="card-title">Project #3</Card.Footer>
-            </Card>
-          </CardDeck>
+          <div>
+            <CardDeck>
+              <div>
+                <Card className="card" fluid>
+                  <Card.Img style={{borderRadius: 0}} src={Test} />
+                </Card>
+                <Card.Footer className="card-title">Project #1</Card.Footer>
+              </div>
+              <div>
+                <Card className="card" fluid>
+                  <Card.Img style={{borderRadius: 0}} src={Test} />
+                </Card>
+                <Card.Footer className="card-title">Project #2</Card.Footer>
+              </div>
+              <div>
+                <Card className="card" fluid>
+                  <Card.Img style={{borderRadius: 0}} src={Test} />
+                </Card>
+                <Card.Footer className="card-title">Project #3</Card.Footer>
+              </div>
+            </CardDeck>
+          </div>
         </div>
 
         <footer>

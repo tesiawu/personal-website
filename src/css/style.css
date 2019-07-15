@@ -347,14 +347,12 @@
   Project page
 */
 
-
 .card {
   width: auto;
   height: auto;
   border-radius: 0;
   border-color: black;
   background-color: black;
-
   transition: transform .5s, box-shadow 0.2s;
 }
 
