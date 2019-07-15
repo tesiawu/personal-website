@@ -347,12 +347,20 @@
   Project page
 */
 
+
 .card {
   width: auto;
   height: auto;
   border-radius: 0;
   border-color: black;
   background-color: black;
+
+  transition: transform .5s, box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 20px 30px 0 rgba(225, 225, 225, .25), 0px 0 20px 5px rgba(225, 225, 225, .5);
+  transform: scale3d(1.05, 1.05, 1);
 }
 
 .card-title {
@@ -362,5 +370,5 @@
 }
 
 .project-container {
-  margin-top: 80px;
+  margin-top: 110px;
 }

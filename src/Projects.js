@@ -40,6 +40,21 @@ export default class Projects extends Component {
               <Card.Footer className="card-title">Project #3</Card.Footer>
             </Card>
           </CardDeck>
+          <br/>
+          <CardDeck>
+            <Card className="card" fluid>
+              <Card.Img style={{borderRadius: 0}} src={Test} />
+              <Card.Footer className="card-title">Project #1</Card.Footer>
+            </Card>
+            <Card className="card" fluid>
+              <Card.Img style={{borderRadius: 0}} src={Test} />
+              <Card.Footer className="card-title">Project #2</Card.Footer>
+            </Card>
+            <Card className="card" fluid>
+              <Card.Img style={{borderRadius: 0}} src={Test} />
+              <Card.Footer className="card-title">Project #3</Card.Footer>
+            </Card>
+          </CardDeck>
         </div>
 
         <footer>
