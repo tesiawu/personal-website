@@ -27,26 +27,49 @@ export default class Projects extends Component {
           <h1 style={{color:'white', textAlign:'center'}}>Projects</h1>
           <br/>
           <div>
-            <CardDeck>
-              <div>
-                <Card className="card" fluid>
+            <Container>
+              <Row>
+              <Col xs={6} md={4}>
+                <Card className="card card-image" fluid>
                   <Card.Img style={{borderRadius: 0}} src={Test} />
                 </Card>
                 <Card.Footer className="card-title">Project #1</Card.Footer>
-              </div>
-              <div>
-                <Card className="card" fluid>
-                  <Card.Img style={{borderRadius: 0}} src={Test} />
+              </Col>
+              <Col xs={6} md={4}>
+                <Card className="card card-image" fluid>
+                  <Card.Img className="" style={{borderRadius: 0}} src={Test} />
                 </Card>
                 <Card.Footer className="card-title">Project #2</Card.Footer>
-              </div>
-              <div>
-                <Card className="card" fluid>
+              </Col>
+              <Col xs={6} md={4}>
+                <Card className="card card-image" fluid>
                   <Card.Img style={{borderRadius: 0}} src={Test} />
                 </Card>
                 <Card.Footer className="card-title">Project #3</Card.Footer>
-              </div>
-            </CardDeck>
+              </Col>
+              </Row>
+              <br/>
+              <Row>
+              <Col xs={6} md={4}>
+                <Card className="card card-image" fluid>
+                  <Card.Img style={{borderRadius: 0}} src={Test} />
+                </Card>
+                <Card.Footer className="card-title">Project #4</Card.Footer>
+              </Col>
+              <Col xs={6} md={4}>
+                <Card className="card card-image" fluid>
+                  <Card.Img style={{borderRadius: 0}} src={Test} />
+                </Card>
+                <Card.Footer className="card-title">Project #5</Card.Footer>
+              </Col>
+              <Col xs={6} md={4}>
+                <Card className="card card-image" fluid>
+                  <Card.Img style={{borderRadius: 0}} src={Test} />
+                </Card>
+                <Card.Footer className="card-title">Project #6</Card.Footer>
+              </Col>
+              </Row>
+            </Container>
           </div>
         </div>
 
