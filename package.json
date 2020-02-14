@@ -15,7 +15,7 @@
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.5",
     "react-typewriter": "^0.4.1",
-    "yarn": "^1.16.0"
+    "yarn": "^1.22.0"
   },
   "scripts": {
     "start": "react-scripts start",
